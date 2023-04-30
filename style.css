@@ -1,0 +1,44 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/* .container{
+    display: grid;
+    grid-template-rows: 25% 25% 25% 25%;
+} */
+
+.card {
+    color: #016064;
+    display: inline-grid;
+    grid-template-rows: 25% 25% 25% 25%;
+    background-color: #BEBEBE;
+    border: black 2px solid;
+    border-radius: 10px;
+    width: 250px;
+    height: 350px;
+    margin: 5px;
+    justify-content: center;
+    align-items: center;
+    text-decoration: underline blue;
+    font-size: large;
+
+}
+
+#forms {
+    display: inline-flex;
+    flex-direction: column;
+    width: 100%;
+    gap: 3px;
+    align-items: center;
+}
+
+#forms button {
+    background-color: grey;
+    color: whitesmoke;
+    width: 5%;
+    border-radius: 5px;
+    font-size: 15px;
+    
+}
